@@ -57,7 +57,7 @@
   .middle{
 
     height: 200%;
-    background-image: url(image/tob.jpg);
+    background-image: linear-gradient(black,teal);
     padding-bottom: 300px;
     margin-bottom: 30px;
     box-shadow: 10px black;
@@ -119,8 +119,7 @@
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 60px;
-  /*background-color: rgb(18, 18, 51);
-  #background-image: linear-gradient(to bottom, rgb(0, 0, 0),rgba(49, 211, 76, 0.925), rgb(0, 0, 0));*/
+
   width: 100%;
   color:white;
   height:5rem;
