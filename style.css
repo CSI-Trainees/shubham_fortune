@@ -25,6 +25,7 @@
     background-size: cover;
     padding-bottom: 8rem;
     margin-bottom: 5rem;
+    overflow: hidden;
 }  
 
 .back::before{
@@ -57,11 +58,12 @@
 
     height: 200%;
     background-image: url(image/tob.jpg);
-    padding-bottom: 200px;
+    padding-bottom: 300px;
     margin-bottom: 30px;
     box-shadow: 10px black;
     margin-top: 10rem;
-  
+    background-size: cover;
+    overflow: hidden;
   }
 
 .h1{
@@ -126,7 +128,7 @@
   padding-bottom: 20px;
   letter-spacing: 4px;
   background-image: url(image/tenor.gif);
-
+  overflow: hidden;
 }
 
 .slot{
@@ -139,7 +141,14 @@
   right:20%;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 14.19rem;
+  padding-bottom: 20.5rem;
   box-shadow: 2px black;
-  padding-right: 8.7rem;;
+  padding-right: 8.7rem;
+  overflow: hidden;
+}
+
+.demo{
+  font-size: 200px;
+  left: 30%;
+
 }
