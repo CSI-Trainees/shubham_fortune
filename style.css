@@ -56,9 +56,9 @@
 
   .middle{
 
-    height: 200%;
+    height: 100%;
     background-image: linear-gradient(black,teal);
-    padding-bottom: 300px;
+    padding-bottom: 200px;
     margin-bottom: 30px;
     box-shadow: 10px black;
     margin-top: 10rem;
@@ -118,8 +118,7 @@
 .h2{
   text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 60px;
-
+  font-size: 50px;
   width: 100%;
   color:white;
   height:5rem;
@@ -133,17 +132,17 @@
 .slot{
   background-image: url(image/12.gif);
   position: absolute;
-  width: 30%;
-  height: 29.2%;
+  width: 40%;
+  height: 24%;
   top:55rem;
   left: 60.9%;
-  right:20%;
+  right:0;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 20.5rem;
+  padding-bottom: 16.9rem;
   box-shadow: 2px black;
-  padding-right: 8.7rem;
-  overflow: hidden;
+  padding-right: 0rem;
+ 
 }
 
 .demo{
