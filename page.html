@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <meta charset="utf-8">
+        <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
+        <link rel="stylesheet" type="text/Css" href="style.css">
+        <title>THE FORTUNE</title>
+    </head>
+    
+    <Body>
+        <header class="top">
+            <div class="back">
+            </div>
+
+            <div class="bgtext">
+              
+                <h1 class="anim1">Welcome</h1>
+                <h1 class="anim">To</h1>
+                <h1 class="anim">Fortune</h1>
+            </div>
+
+        </header>
+
+        <main>
+            <section class="middle">
+                <div class="box">
+                    <h1 class='h1' >Let's Play!!!</h1>
+                </div>
+                <div class="slot"></div>
+
+                <p class="num">Click the button to display your number</p>
+
+                    <button class="button" onclick="myFunction()">Try it</button>
+
+                    <p id="demo"></p>
+
+                    <script>    
+                    function myFunction() {
+                     var x = Math.floor((Math.random() * 10) + 1);
+                    document.getElementById("demo").innerHTML = x;
+                    }
+                    </script>
+
+            </section>
+        </main>
+
+        <footer class="down">
+            <h1 class= "h2">Thankyou for Playing</h1>
+        </footer>
+    </Body>
